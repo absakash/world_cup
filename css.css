@@ -1,0 +1,38 @@
+
+.card-container{
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn{
+    width: 200px;
+    background-color: gray;
+    margin-top: 20px;
+    padding: 16px 25px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.btn:hover{
+    text-decoration: underline;
+    background-color: red;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.card1{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
